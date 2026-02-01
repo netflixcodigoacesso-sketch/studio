@@ -42,7 +42,7 @@ export default function Home() {
             className="w-full h-16 text-lg font-bold rounded-full shadow-lg transition-transform transform hover:scale-105"
           >
             <Send className="mr-3 h-7 w-7" />
-            Telegram
+            Telegram - Conteudos Quentes (PAGOS)
           </Button>
         </a>
       </div>
