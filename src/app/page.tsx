@@ -27,7 +27,7 @@ export default function Home() {
             className="w-full h-16 text-lg font-bold rounded-full shadow-lg transition-transform transform hover:scale-105 bg-gradient-to-r from-black to-red-600 text-white"
           >
             <TiktokIcon className="mr-3 h-7 w-7" />
-            Videozihos dancando 🔥
+            Videozinho Dançando🔥
           </Button>
         </a>
         <a
