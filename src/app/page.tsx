@@ -31,7 +31,7 @@ export default function Home() {
           </Button>
         </a>
         <a
-          href="https://telegram.org/"
+          href="https://t.me/+jjrE1kPf-tg0MzQx"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full"
@@ -42,7 +42,7 @@ export default function Home() {
             className="w-full h-16 text-lg font-bold rounded-full shadow-lg transition-transform transform hover:scale-105"
           >
             <Send className="mr-3 h-7 w-7" />
-            Telegram - Conteudos (PAGOS)
+            Telegram - Quentes (PAGOS)
           </Button>
         </a>
       </div>
