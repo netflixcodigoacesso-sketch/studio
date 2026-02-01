@@ -24,8 +24,7 @@ export default function Home() {
           aria-label="Siga-nos no TikTok"
         >
           <Button
-            variant="ghost"
-            className="w-full h-16 text-lg font-bold rounded-full shadow-lg transition-transform transform hover:scale-105 bg-gradient-to-r from-[#00F2EA] to-[#ff0050] text-white hover:bg-gradient-to-r hover:from-[#00F2EA] hover:to-[#ff0050] hover:text-white"
+            className="w-full h-16 text-lg font-bold rounded-full shadow-lg transition-transform transform hover:scale-105 bg-gradient-to-r from-black to-red-600 text-white"
           >
             <TiktokIcon className="mr-3 h-7 w-7" />
             Videozihos dancando 🔥
