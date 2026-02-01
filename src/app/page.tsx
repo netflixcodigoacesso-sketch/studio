@@ -1,11 +1,16 @@
 import { Button } from '@/components/ui/button';
 import { Send } from 'lucide-react';
 import { TiktokIcon } from '@/components/icons/tiktok-icon';
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 export default function Home() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center justify-center bg-background p-8">
       <div className="flex w-full max-w-sm flex-col items-center space-y-6">
+        <Avatar className="h-32 w-32">
+          <AvatarImage src="https://i.imgur.com/haNZ8eu.jpeg" alt="Foto de perfil" />
+          <AvatarFallback>FP</AvatarFallback>
+        </Avatar>
         <a
           href="https://www.tiktok.com/"
           target="_blank"
