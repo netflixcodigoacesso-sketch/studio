@@ -1,22 +1,19 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
 import { useEffect } from 'react';
 import { Icon18Plus } from '@/components/icons/icon-18-plus';
 
 export default function AgeGatePage() {
-  const router = useRouter();
-
   useEffect(() => {
     try {
       const isVerified = localStorage.getItem('ageVerified');
       if (isVerified === 'true') {
-        router.push('/links');
+        window.location.href = 'https://t.me/+3LHhKHUrPJRiYzA5';
       }
     } catch (error) {
       console.log('localStorage not available');
     }
-  }, [router]);
+  }, []);
 
   const handleConfirm = () => {
     try {
@@ -24,7 +21,7 @@ export default function AgeGatePage() {
     } catch (error) {
       console.log('localStorage not available');
     }
-    router.push('/links');
+    window.location.href = 'https://t.me/+3LHhKHUrPJRiYzA5';
   };
 
   return (
