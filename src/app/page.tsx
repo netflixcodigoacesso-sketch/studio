@@ -1,26 +1,9 @@
 'use client';
 
-import { useEffect } from 'react';
 import { Icon18Plus } from '@/components/icons/icon-18-plus';
 
 export default function AgeGatePage() {
-  useEffect(() => {
-    try {
-      const isVerified = localStorage.getItem('ageVerified');
-      if (isVerified === 'true') {
-        window.location.href = 'https://t.me/+3LHhKHUrPJRiYzA5';
-      }
-    } catch (error) {
-      console.log('localStorage not available');
-    }
-  }, []);
-
   const handleConfirm = () => {
-    try {
-      localStorage.setItem('ageVerified', 'true');
-    } catch (error) {
-      console.log('localStorage not available');
-    }
     window.location.href = 'https://t.me/+3LHhKHUrPJRiYzA5';
   };
 
