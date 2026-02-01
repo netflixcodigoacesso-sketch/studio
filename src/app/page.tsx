@@ -17,7 +17,7 @@ export default function Home() {
           </div>
         </div>
         <a
-          href="https://www.tiktok.com/"
+          href="https://www.tiktok.com/@japi.stktj"
           target="_blank"
           rel="noopener noreferrer"
           className="w-full"
