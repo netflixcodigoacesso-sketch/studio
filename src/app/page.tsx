@@ -7,10 +7,14 @@ export default function Home() {
   return (
     <main className="flex min-h-screen w-full flex-col items-center justify-center bg-background p-8">
       <div className="flex w-full max-w-sm flex-col items-center space-y-6">
-        <Avatar className="h-32 w-32">
-          <AvatarImage src="https://i.imgur.com/haNZ8eu.jpeg" alt="Foto de perfil" />
-          <AvatarFallback>FP</AvatarFallback>
-        </Avatar>
+        <div className="relative flex h-36 w-36 items-center justify-center rounded-full bg-gradient-to-r from-primary to-secondary p-1 animate-spin-slow">
+          <div className="flex h-full w-full items-center justify-center rounded-full bg-background">
+            <Avatar className="h-32 w-32">
+              <AvatarImage src="https://i.imgur.com/haNZ8eu.jpeg" alt="Foto de perfil" />
+              <AvatarFallback>FP</AvatarFallback>
+            </Avatar>
+          </div>
+        </div>
         <a
           href="https://www.tiktok.com/"
           target="_blank"
