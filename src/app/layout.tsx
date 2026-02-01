@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 
 export const metadata: Metadata = {
-  title: 'Links Rápidos',
-  description: 'Seus links rápidos para TikTok e Telegram.',
+  title: 'Área Restrita',
+  description: 'Acesso a conteúdos exclusivos.',
 };
 
 export default function RootLayout({
