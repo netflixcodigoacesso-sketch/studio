@@ -4,7 +4,7 @@ import { Icon18Plus } from '@/components/icons/icon-18-plus';
 
 export default function AgeGatePage() {
   const handleConfirm = () => {
-    window.location.href = 'https://t.me/+3LHhKHUrPJRiYzA5';
+    window.location.href = 'http://t.me/gabidantas_bot';
   };
 
   return (
